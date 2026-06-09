@@ -239,7 +239,7 @@ int main(){
         hubHoles.emplace_back(hubRadius * cos(angle), hubRadius * sin(angle));
     }
 
-    double rotationAngle = 0.01; // rotation of the hub
+    double rotationAngle = 0.001; // rotation of the hub
     Matrix2d R;
     R << cos(rotationAngle), -sin(rotationAngle),
          sin(rotationAngle), cos(rotationAngle);
